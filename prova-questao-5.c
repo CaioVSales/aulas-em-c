@@ -1,9 +1,18 @@
 // 13.13
 int main(){
-    float numero, fracionaria, fracionaria2, fracionaria4;
-    int inteira, fracionaria3, fracionaria5;
+    float numero, fracionaria, fracionaria2, fracionaria4, fracionaria5;
+    int inteira, fracionaria3;
     printf("Digite um valor: ");
     scanf("%f", &numero);
+
+
+
+// 13.17
+// 0.17
+// 1.7
+// 0.7
+
+
 
 
     inteira = numero;
@@ -24,7 +33,7 @@ int main(){
     fracionaria4 = fracionaria2 - fracionaria3;
     // printf("%f\n", fracionaria4);
     fracionaria5 = fracionaria4 * 10 + 0.2;
-    // printf("%i\n", fracionaria5);
+    printf("%f\n", fracionaria5);
 
 
 
